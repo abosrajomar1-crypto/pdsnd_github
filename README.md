@@ -170,4 +170,5 @@ Credits
 Udacity’s Bikeshare project specification and starter resources
 
 Official pandas documentation for data wrangling
+The instructor's amazing notes
 
