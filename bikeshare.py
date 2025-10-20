@@ -8,7 +8,7 @@ CITY_DATA = {
 }
 
 def get_filters():
-    print("Hello! Let's explore some US bikeshare data!")
+    print("Hi! Let's explore some US bikeshare data!")
     cities = ['chicago', 'new york city', 'washington']
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -17,7 +17,7 @@ def get_filters():
         city = input("Choose a city (chicago, new york city, washington): ").strip().lower()
         if city in cities:
             break
-        print("Invalid city. Please try again.")
+        print("Invalid city. Please try again later.")
 
     while True:
         month = input("Choose a month (all, january, february, march, april, may, june): ").strip().lower()
